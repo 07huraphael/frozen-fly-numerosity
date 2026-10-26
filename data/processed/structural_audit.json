@@ -1,0 +1,25 @@
+{
+  "neurons": 5978,
+  "edges": 35483,
+  "graph_sha256": "f9edddcf6810f52b2a0ba2a7089cac3053f525cf9555d24914eeede7c5d74401",
+  "reachable_from_retina": 5556,
+  "unreachable_from_retina": 422,
+  "zero_indegree": 1296,
+  "zero_outdegree": 999,
+  "strong_components": 2387,
+  "largest_strong_component": 3243,
+  "targets": {
+    "LC11": {
+      "total": 61,
+      "reachable": 61,
+      "min_hops": 3,
+      "max_hops": 4
+    },
+    "LC10a": {
+      "total": 119,
+      "reachable": 110,
+      "min_hops": 2,
+      "max_hops": 6
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "model": "anatomical",
+  "primary_prediction_min": -258.80661993115854,
+  "primary_prediction_max": 280.6425844440482,
+  "primary_prediction_outside_0_10_fraction": 0.6111111111111112,
+  "primary_mae": 30.88517160497605,
+  "A_conditions": [
+    {
+      "experiment": "A",
+      "condition": "fixed_radius",
+      "n": 66,
+      "mae": 1.252428921696815,
+      "rmse": 1.6392896759107012,
+      "exact_accuracy": 0.3181818181818182,
+      "bias": -0.7821296952064972
+    },
+    {
+      "experiment": "A",
+      "condition": "fixed_area",
+      "n": 66,
+      "mae": 2.4676509052747404,
+      "rmse": 3.219730777416335,
+      "exact_accuracy": 0.15151515151515152,
+      "bias": 1.3899046261833876
+    },
+    {
+      "experiment": "A",
+      "condition": "fixed_extent",
+      "n": 66,
+      "mae": 1.1058047493295655,
+      "rmse": 1.5234603719978166,
+      "exact_accuracy": 0.36363636363636365,
+      "bias": -0.493476116118426
+    },
+    {
+      "experiment": "A",
+      "condition": "cue_conflict",
+      "n": 66,
+      "mae": 4.129941172602774,
+      "rmse": 5.594744695865825,
+      "exact_accuracy": 0.015151515151515152,
+      "bias": -0.8431673538840591
+    },
+    {
+      "experiment": "A",
+      "condition": "ood",
+      "n": 66,
+      "mae": 3.794393213113251,
+      "rmse": 4.679037950997934,
+      "exact_accuracy": 0.12121212121212122,
+      "bias": -3.656911227129944
+    }
+  ],
+  "neural_state_diagnostics": {
+    "final_mean_abs_activity": 0.0027159224555362016,
+    "final_saturation_fraction": 0.0
+  },
+  "interpretation_scope": "Descriptive analysis of frozen model outputs; no test-based retuning"
+}

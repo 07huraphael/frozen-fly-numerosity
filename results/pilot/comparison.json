@@ -1,0 +1,17 @@
+{
+  "reference_mae": 30.88517160497605,
+  "rewire_mean_mae": 19.094344131574864,
+  "reference_minus_rewire_mean_mae": 11.790827473401189,
+  "conditional_mean_delta_ci95": [
+    4.334041892318233,
+    18.8792055537072
+  ],
+  "rewire_count": 20,
+  "reference_rank_among_rewires_plus_reference": 16,
+  "conditional_on": "One stimulus seed, one input mapping, one empirical graph, fixed dynamics",
+  "bootstrap_unit": "rewired graph, not image",
+  "constant_train_mean_prediction": 5.0,
+  "constant_train_mean_mae": 1.9444444444444444,
+  "constant_train_mean_exact_accuracy": 0.16666666666666666,
+  "evidence_scope": "Exploratory computational pilot; no confirmatory or biological causal conclusion"
+}

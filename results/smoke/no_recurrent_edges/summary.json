@@ -1,0 +1,393 @@
+{
+  "name": "no_recurrent_edges",
+  "family": "no_recurrence",
+  "primary": {
+    "experiment": "B",
+    "condition": "primary_shift",
+    "gap": 2,
+    "duration": 4,
+    "n": 72,
+    "mae": 1.9444444444444444,
+    "rmse": 2.41522945769824,
+    "exact_accuracy": 0.16666666666666666,
+    "bias": 0.0,
+    "common_alpha_mae": 1.9444444444444444,
+    "order_swap_mean_abs_change": 0.0,
+    "zero_operand_mae": 2.272727272727273,
+    "both_nonzero_mae": 1.8
+  },
+  "readout_alpha": 0.01,
+  "validation_mae": {
+    "0.01": 2.727272727272727,
+    "1.0": 2.727272727272727,
+    "100.0": 2.727272727272727
+  },
+  "readout_sha256_before_b": "8af5302fcffb31b69d010791e2d37097cc7b5f7251a8c158254ea366b5a79966",
+  "readout_sha256_after_b": "8af5302fcffb31b69d010791e2d37097cc7b5f7251a8c158254ea366b5a79966",
+  "graph_sha256": "57745ac05f7e6fbf1a4af8cc801eeefa5dda23925ca47e03b7d6174a0be6c26f",
+  "rewire_diagnostics": {},
+  "weight_diagnostics": {
+    "raw_abs_weight_sum": 29342.0,
+    "raw_weight_mean": 7.420839656044512,
+    "normalized_abs_row_sum_max": 0.0,
+    "normalized_frobenius": 0.0
+  },
+  "activity_diagnostics": {
+    "final_mean_abs_activity": 0.0011472843276957672,
+    "final_saturation_fraction": 0.0
+  },
+  "feature_count": 160,
+  "A": [
+    {
+      "experiment": "A",
+      "condition": "fixed_radius",
+      "n": 11,
+      "mae": 2.727272727272727,
+      "rmse": 3.1622776601683795,
+      "exact_accuracy": 0.09090909090909091,
+      "bias": 0.0
+    },
+    {
+      "experiment": "A",
+      "condition": "fixed_area",
+      "n": 11,
+      "mae": 2.727272727272727,
+      "rmse": 3.1622776601683795,
+      "exact_accuracy": 0.09090909090909091,
+      "bias": 0.0
+    },
+    {
+      "experiment": "A",
+      "condition": "fixed_extent",
+      "n": 11,
+      "mae": 2.727272727272727,
+      "rmse": 3.1622776601683795,
+      "exact_accuracy": 0.09090909090909091,
+      "bias": 0.0
+    },
+    {
+      "experiment": "A",
+      "condition": "cue_conflict",
+      "n": 11,
+      "mae": 2.727272727272727,
+      "rmse": 3.1622776601683795,
+      "exact_accuracy": 0.09090909090909091,
+      "bias": 0.0
+    },
+    {
+      "experiment": "A",
+      "condition": "ood",
+      "n": 11,
+      "mae": 2.727272727272727,
+      "rmse": 3.1622776601683795,
+      "exact_accuracy": 0.09090909090909091,
+      "bias": 0.0
+    }
+  ],
+  "B": [
+    {
+      "experiment": "B",
+      "condition": "fixed_radius",
+      "gap": 0,
+      "duration": 4,
+      "n": 36,
+      "mae": 1.9444444444444444,
+      "rmse": 2.41522945769824,
+      "exact_accuracy": 0.16666666666666666,
+      "bias": 0.0,
+      "common_alpha_mae": 1.9444444444444444,
+      "order_swap_mean_abs_change": 0.0,
+      "zero_operand_mae": 2.272727272727273,
+      "both_nonzero_mae": 1.8
+    },
+    {
+      "experiment": "B",
+      "condition": "fixed_area",
+      "gap": 0,
+      "duration": 4,
+      "n": 36,
+      "mae": 1.9444444444444444,
+      "rmse": 2.41522945769824,
+      "exact_accuracy": 0.16666666666666666,
+      "bias": 0.0,
+      "common_alpha_mae": 1.9444444444444444,
+      "order_swap_mean_abs_change": 0.0,
+      "zero_operand_mae": 2.272727272727273,
+      "both_nonzero_mae": 1.8
+    },
+    {
+      "experiment": "B",
+      "condition": "fixed_extent",
+      "gap": 0,
+      "duration": 4,
+      "n": 36,
+      "mae": 1.9444444444444444,
+      "rmse": 2.41522945769824,
+      "exact_accuracy": 0.16666666666666666,
+      "bias": 0.0,
+      "common_alpha_mae": 1.9444444444444444,
+      "order_swap_mean_abs_change": 0.0,
+      "zero_operand_mae": 2.272727272727273,
+      "both_nonzero_mae": 1.8
+    },
+    {
+      "experiment": "B",
+      "condition": "cue_conflict",
+      "gap": 0,
+      "duration": 4,
+      "n": 36,
+      "mae": 1.9444444444444444,
+      "rmse": 2.41522945769824,
+      "exact_accuracy": 0.16666666666666666,
+      "bias": 0.0,
+      "common_alpha_mae": 1.9444444444444444,
+      "order_swap_mean_abs_change": 0.0,
+      "zero_operand_mae": 2.272727272727273,
+      "both_nonzero_mae": 1.8
+    },
+    {
+      "experiment": "B",
+      "condition": "ood",
+      "gap": 0,
+      "duration": 4,
+      "n": 36,
+      "mae": 1.9444444444444444,
+      "rmse": 2.41522945769824,
+      "exact_accuracy": 0.16666666666666666,
+      "bias": 0.0,
+      "common_alpha_mae": 1.9444444444444444,
+      "order_swap_mean_abs_change": 0.0,
+      "zero_operand_mae": 2.272727272727273,
+      "both_nonzero_mae": 1.8
+    },
+    {
+      "experiment": "B",
+      "condition": "primary_shift",
+      "gap": 0,
+      "duration": 4,
+      "n": 72,
+      "mae": 1.9444444444444444,
+      "rmse": 2.41522945769824,
+      "exact_accuracy": 0.16666666666666666,
+      "bias": 0.0,
+      "common_alpha_mae": 1.9444444444444444,
+      "order_swap_mean_abs_change": 0.0,
+      "zero_operand_mae": 2.272727272727273,
+      "both_nonzero_mae": 1.8
+    },
+    {
+      "experiment": "B",
+      "condition": "fixed_radius",
+      "gap": 2,
+      "duration": 4,
+      "n": 36,
+      "mae": 1.9444444444444444,
+      "rmse": 2.41522945769824,
+      "exact_accuracy": 0.16666666666666666,
+      "bias": 0.0,
+      "common_alpha_mae": 1.9444444444444444,
+      "order_swap_mean_abs_change": 0.0,
+      "zero_operand_mae": 2.272727272727273,
+      "both_nonzero_mae": 1.8
+    },
+    {
+      "experiment": "B",
+      "condition": "fixed_area",
+      "gap": 2,
+      "duration": 4,
+      "n": 36,
+      "mae": 1.9444444444444444,
+      "rmse": 2.41522945769824,
+      "exact_accuracy": 0.16666666666666666,
+      "bias": 0.0,
+      "common_alpha_mae": 1.9444444444444444,
+      "order_swap_mean_abs_change": 0.0,
+      "zero_operand_mae": 2.272727272727273,
+      "both_nonzero_mae": 1.8
+    },
+    {
+      "experiment": "B",
+      "condition": "fixed_extent",
+      "gap": 2,
+      "duration": 4,
+      "n": 36,
+      "mae": 1.9444444444444444,
+      "rmse": 2.41522945769824,
+      "exact_accuracy": 0.16666666666666666,
+      "bias": 0.0,
+      "common_alpha_mae": 1.9444444444444444,
+      "order_swap_mean_abs_change": 0.0,
+      "zero_operand_mae": 2.272727272727273,
+      "both_nonzero_mae": 1.8
+    },
+    {
+      "experiment": "B",
+      "condition": "cue_conflict",
+      "gap": 2,
+      "duration": 4,
+      "n": 36,
+      "mae": 1.9444444444444444,
+      "rmse": 2.41522945769824,
+      "exact_accuracy": 0.16666666666666666,
+      "bias": 0.0,
+      "common_alpha_mae": 1.9444444444444444,
+      "order_swap_mean_abs_change": 0.0,
+      "zero_operand_mae": 2.272727272727273,
+      "both_nonzero_mae": 1.8
+    },
+    {
+      "experiment": "B",
+      "condition": "ood",
+      "gap": 2,
+      "duration": 4,
+      "n": 36,
+      "mae": 1.9444444444444444,
+      "rmse": 2.41522945769824,
+      "exact_accuracy": 0.16666666666666666,
+      "bias": 0.0,
+      "common_alpha_mae": 1.9444444444444444,
+      "order_swap_mean_abs_change": 0.0,
+      "zero_operand_mae": 2.272727272727273,
+      "both_nonzero_mae": 1.8
+    },
+    {
+      "experiment": "B",
+      "condition": "primary_shift",
+      "gap": 2,
+      "duration": 4,
+      "n": 72,
+      "mae": 1.9444444444444444,
+      "rmse": 2.41522945769824,
+      "exact_accuracy": 0.16666666666666666,
+      "bias": 0.0,
+      "common_alpha_mae": 1.9444444444444444,
+      "order_swap_mean_abs_change": 0.0,
+      "zero_operand_mae": 2.272727272727273,
+      "both_nonzero_mae": 1.8
+    }
+  ],
+  "C": [
+    {
+      "budget": 4,
+      "stratum": "all",
+      "n": 210,
+      "mae": 2.0714285714285716,
+      "rmse": 2.533701414362564,
+      "exact_accuracy": 0.0,
+      "bias": 0.75
+    },
+    {
+      "budget": 4,
+      "stratum": "answer_unseen",
+      "n": 210,
+      "mae": 2.0714285714285716,
+      "rmse": 2.533701414362564,
+      "exact_accuracy": 0.0,
+      "bias": 0.75
+    },
+    {
+      "budget": 4,
+      "stratum": "boundary",
+      "n": 30,
+      "mae": 5.0,
+      "rmse": 5.055937104039171,
+      "exact_accuracy": 0.0,
+      "bias": 0.75
+    },
+    {
+      "budget": 8,
+      "stratum": "all",
+      "n": 210,
+      "mae": 1.9285714285714286,
+      "rmse": 2.4330316186072998,
+      "exact_accuracy": 0.2857142857142857,
+      "bias": 0.25
+    },
+    {
+      "budget": 8,
+      "stratum": "answer_unseen",
+      "n": 210,
+      "mae": 1.9285714285714286,
+      "rmse": 2.4330316186072998,
+      "exact_accuracy": 0.2857142857142857,
+      "bias": 0.25
+    },
+    {
+      "budget": 8,
+      "stratum": "boundary",
+      "n": 30,
+      "mae": 5.0,
+      "rmse": 5.006246098625197,
+      "exact_accuracy": 0.0,
+      "bias": 0.25
+    },
+    {
+      "budget": 16,
+      "stratum": "all",
+      "n": 210,
+      "mae": 1.9285714285714286,
+      "rmse": 2.4330316186072998,
+      "exact_accuracy": 0.2857142857142857,
+      "bias": 0.25
+    },
+    {
+      "budget": 16,
+      "stratum": "answer_seen",
+      "n": 60,
+      "mae": 0.25,
+      "rmse": 0.25,
+      "exact_accuracy": 1.0,
+      "bias": 0.25
+    },
+    {
+      "budget": 16,
+      "stratum": "answer_unseen",
+      "n": 150,
+      "mae": 2.6,
+      "rmse": 2.874456470360962,
+      "exact_accuracy": 0.0,
+      "bias": 0.25
+    },
+    {
+      "budget": 16,
+      "stratum": "boundary",
+      "n": 30,
+      "mae": 5.0,
+      "rmse": 5.006246098625197,
+      "exact_accuracy": 0.0,
+      "bias": 0.25
+    }
+  ],
+  "discrimination": {
+    "accuracy": 0.5444444444444444,
+    "n": 270,
+    "by_ratio": [
+      {
+        "ratio_min": 0,
+        "ratio_max": 0.25,
+        "n": 96,
+        "accuracy": 0.5208333333333334
+      },
+      {
+        "ratio_min": 0.25,
+        "ratio_max": 0.5,
+        "n": 50,
+        "accuracy": 0.6
+      },
+      {
+        "ratio_min": 0.5,
+        "ratio_max": 0.75,
+        "n": 79,
+        "accuracy": 0.5316455696202531
+      },
+      {
+        "ratio_min": 0.75,
+        "ratio_max": 1.01,
+        "n": 45,
+        "accuracy": 0.5555555555555556
+      }
+    ],
+    "note": "Zero/nonzero comparisons included in first ratio bin; ties excluded."
+  },
+  "seconds": 0.12143960001412779
+}

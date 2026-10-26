@@ -1,0 +1,71 @@
+{
+  "config": {
+    "study": "software_smoke_v1",
+    "seed": 20261023,
+    "image_size": 48,
+    "train_per_count_condition": 2,
+    "validation_per_count_condition": 1,
+    "test_per_count_condition": 1,
+    "pair_repeats": 1,
+    "rewires": 2,
+    "swaps_per_edge": 5,
+    "min_changed_fraction": 0.7,
+    "train_conditions": [
+      "fixed_radius",
+      "fixed_area",
+      "fixed_extent"
+    ],
+    "test_conditions": [
+      "fixed_radius",
+      "fixed_area",
+      "fixed_extent",
+      "cue_conflict",
+      "ood"
+    ],
+    "primary_conditions": [
+      "cue_conflict",
+      "ood"
+    ],
+    "gaps": [
+      0,
+      2
+    ],
+    "primary_gap": 2,
+    "durations": [
+      4
+    ],
+    "primary_duration": 4,
+    "post_steps": 2,
+    "dynamics": {
+      "leak": 0.5,
+      "gain": 0.9,
+      "input_scale": 1.0
+    },
+    "ridge_alphas": [
+      0.01,
+      1.0,
+      100.0
+    ],
+    "c_budgets": [
+      4,
+      8,
+      16
+    ],
+    "bootstrap_samples": 200,
+    "batch_size": 64
+  },
+  "graph_fingerprint": "57745ac05f7e6fbf1a4af8cc801eeefa5dda23925ca47e03b7d6174a0be6c26f",
+  "source_sha256": "b0da3b7ed7202ab5a348ce4ad0f96ab92f021a3e9340e807b782b7036f109bd0",
+  "include_c": true,
+  "created_utc": "2026-10-22T16:17:54.480148+00:00",
+  "python": "3.11.5",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "graph_provenance": {
+    "kind": "synthetic_fixture",
+    "seed": 20261023
+  },
+  "status": "exploratory_pilot",
+  "confirmatory": false
+}

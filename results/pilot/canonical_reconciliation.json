@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "canonical_record": "https://zenodo.org/records/10676866",
+  "canonical_file": "proofread_connections_783.feather",
+  "md5": "f48f972d262323a102aed49af1396b8a",
+  "sha256": "24f960ae3e7d4f8cd30db3b62e99fb5179cc3d1e76d8c155bfb441e9737d3faf",
+  "canonical_table_rows": 16847997,
+  "pyarrow_version": "26.0.0",
+  "canonical_touching_rows": 3848655,
+  "canonical_unique_touching_pairs": 3599911,
+  "model_neurons": 5978,
+  "model_edges": 35483,
+  "all_model_edge_endpoints_match": true,
+  "all_model_synapse_counts_match": true,
+  "anatomical_neighbor_selection_matches": true,
+  "graph_sha256": "f9edddcf6810f52b2a0ba2a7089cac3053f525cf9555d24914eeede7c5d74401",
+  "interpretation": "Coalescing deposited parallel rows reproduces the canonical FlyWire model subgraph and its anatomical selection exactly."
+}

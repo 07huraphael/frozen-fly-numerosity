@@ -1,0 +1,233 @@
+{
+  "passed": true,
+  "models": 28,
+  "rewires": 20,
+  "nonzero_A_B_C_cross_experiment_image_overlap": 0,
+  "checks": [
+    {
+      "model": "anatomical",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_00",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_01",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_02",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_03",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_04",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_05",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_06",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_07",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_08",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_09",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_10",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_11",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_12",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_13",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_14",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_15",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_16",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_17",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_18",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "rewire_19",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "random_matched",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "weight_shuffle",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "no_recurrent_edges",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "glutamate_excitatory",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "image_cues",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "pixel_integrator",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    },
+    {
+      "model": "leaky_pixel_integrator",
+      "A_trials": 330,
+      "B_trials": 2160,
+      "primary_trials": 144,
+      "readout_hash_verified": true,
+      "metrics_recomputed_from_csv": true
+    }
+  ],
+  "scope": "Saved-artifact integrity and independent metric reconciliation"
+}

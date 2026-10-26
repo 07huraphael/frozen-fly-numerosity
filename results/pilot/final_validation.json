@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "experimental_source_unchanged": true,
+  "source_snapshot_sha256": "e5479a8dbd0d69cb3943beb7678816f2c9498ff6670b68ff2638dcb849497cd4",
+  "canonical_source_verified": true,
+  "artifact_metrics_verified": true,
+  "postprocessor": "scripts/attach_validation.py"
+}

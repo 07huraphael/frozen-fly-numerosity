@@ -1,0 +1,247 @@
+[
+  {
+    "condition": "fixed_radius",
+    "cue": "geometric_area",
+    "count_correlation": 0.973650001516556,
+    "min": 0.00494636115231791,
+    "max": 0.05566086239762682
+  },
+  {
+    "condition": "fixed_radius",
+    "cue": "pixel_mass",
+    "count_correlation": 0.9521289137160331,
+    "min": 10.436320304870605,
+    "max": 87.32894897460938
+  },
+  {
+    "condition": "fixed_radius",
+    "cue": "occupied_pixels",
+    "count_correlation": 0.9872385904523662,
+    "min": 17.0,
+    "max": 195.0
+  },
+  {
+    "condition": "fixed_radius",
+    "cue": "bbox_x",
+    "count_correlation": 0.8667533374311034,
+    "min": 0.08333333333333333,
+    "max": 0.7916666666666666
+  },
+  {
+    "condition": "fixed_radius",
+    "cue": "bbox_y",
+    "count_correlation": 0.9356005170185018,
+    "min": 0.0625,
+    "max": 0.75
+  },
+  {
+    "condition": "fixed_radius",
+    "cue": "contrast",
+    "count_correlation": -0.5115542278620465,
+    "min": 0.6801077230784158,
+    "max": 0.9225477026558682
+  },
+  {
+    "condition": "fixed_radius",
+    "cue": "radius",
+    "count_correlation": -0.12778149934255303,
+    "min": 0.0362735492938682,
+    "max": 0.04468581563640296
+  },
+  {
+    "condition": "fixed_area",
+    "cue": "geometric_area",
+    "count_correlation": null,
+    "min": 0.047999999999999994,
+    "max": 0.04800000000000001
+  },
+  {
+    "condition": "fixed_area",
+    "cue": "pixel_mass",
+    "count_correlation": -0.28405426995855293,
+    "min": 72.96992492675781,
+    "max": 102.99343872070312
+  },
+  {
+    "condition": "fixed_area",
+    "cue": "occupied_pixels",
+    "count_correlation": 0.970145652835986,
+    "min": 126.0,
+    "max": 171.0
+  },
+  {
+    "condition": "fixed_area",
+    "cue": "bbox_x",
+    "count_correlation": 0.7659295717020316,
+    "min": 0.22916666666666666,
+    "max": 0.7291666666666666
+  },
+  {
+    "condition": "fixed_area",
+    "cue": "bbox_y",
+    "count_correlation": 0.5326256637450456,
+    "min": 0.22916666666666666,
+    "max": 0.7708333333333334
+  },
+  {
+    "condition": "fixed_area",
+    "cue": "contrast",
+    "count_correlation": -0.2798968452165989,
+    "min": 0.6603612854486225,
+    "max": 0.9336515932064573
+  },
+  {
+    "condition": "fixed_area",
+    "cue": "radius",
+    "count_correlation": -0.8872665344126405,
+    "min": 0.039088200952233594,
+    "max": 0.12360774464742066
+  },
+  {
+    "condition": "fixed_extent",
+    "cue": "geometric_area",
+    "count_correlation": 0.9767319145776356,
+    "min": 0.004403739102635306,
+    "max": 0.05621402777210764
+  },
+  {
+    "condition": "fixed_extent",
+    "cue": "pixel_mass",
+    "count_correlation": 0.9790703588779068,
+    "min": 6.699338436126709,
+    "max": 109.37371826171875
+  },
+  {
+    "condition": "fixed_extent",
+    "cue": "occupied_pixels",
+    "count_correlation": 0.9836106089845219,
+    "min": 15.0,
+    "max": 190.0
+  },
+  {
+    "condition": "fixed_extent",
+    "cue": "bbox_x",
+    "count_correlation": 0.8725602521821713,
+    "min": 0.0625,
+    "max": 0.5833333333333334
+  },
+  {
+    "condition": "fixed_extent",
+    "cue": "bbox_y",
+    "count_correlation": 0.6708020439794566,
+    "min": 0.0625,
+    "max": 0.5833333333333334
+  },
+  {
+    "condition": "fixed_extent",
+    "cue": "contrast",
+    "count_correlation": 0.23125893220389668,
+    "min": 0.6616630635421861,
+    "max": 0.8811870835314466
+  },
+  {
+    "condition": "fixed_extent",
+    "cue": "radius",
+    "count_correlation": 0.5531169593887623,
+    "min": 0.03703226316831268,
+    "max": 0.044153823755264096
+  },
+  {
+    "condition": "cue_conflict",
+    "cue": "geometric_area",
+    "count_correlation": -0.864347898129244,
+    "min": 0.015671047969978383,
+    "max": 0.07
+  },
+  {
+    "condition": "cue_conflict",
+    "cue": "pixel_mass",
+    "count_correlation": -0.8645422042048501,
+    "min": 30.440624237060547,
+    "max": 137.00938415527344
+  },
+  {
+    "condition": "cue_conflict",
+    "cue": "occupied_pixels",
+    "count_correlation": -0.8499389157607307,
+    "min": 72.0,
+    "max": 185.0
+  },
+  {
+    "condition": "cue_conflict",
+    "cue": "bbox_x",
+    "count_correlation": 0.6285317501557104,
+    "min": 0.20833333333333334,
+    "max": 0.7083333333333334
+  },
+  {
+    "condition": "cue_conflict",
+    "cue": "bbox_y",
+    "count_correlation": 0.6770306108262817,
+    "min": 0.20833333333333334,
+    "max": 0.7708333333333334
+  },
+  {
+    "condition": "cue_conflict",
+    "cue": "contrast",
+    "count_correlation": null,
+    "min": 0.85,
+    "max": 0.85
+  },
+  {
+    "condition": "cue_conflict",
+    "cue": "radius",
+    "count_correlation": -0.8366303867765859,
+    "min": 0.022334389393275436,
+    "max": 0.14927053303604618
+  },
+  {
+    "condition": "ood",
+    "cue": "geometric_area",
+    "count_correlation": 0.9808508949199771,
+    "min": 0.0020220835607630706,
+    "max": 0.02769955408825058
+  },
+  {
+    "condition": "ood",
+    "cue": "pixel_mass",
+    "count_correlation": 0.9613125401312486,
+    "min": 2.0517921447753906,
+    "max": 26.45295524597168
+  },
+  {
+    "condition": "ood",
+    "cue": "occupied_pixels",
+    "count_correlation": 0.9914401642966658,
+    "min": 9.0,
+    "max": 108.0
+  },
+  {
+    "condition": "ood",
+    "cue": "bbox_x",
+    "count_correlation": 0.7120293718292152,
+    "min": 0.041666666666666664,
+    "max": 0.75
+  },
+  {
+    "condition": "ood",
+    "cue": "bbox_y",
+    "count_correlation": 0.8980162732387065,
+    "min": 0.041666666666666664,
+    "max": 0.7291666666666666
+  },
+  {
+    "condition": "ood",
+    "cue": "contrast",
+    "count_correlation": -0.0646350185047365,
+    "min": 0.30417131670632247,
+    "max": 0.4576496959868508
+  },
+  {
+    "condition": "ood",
+    "cue": "radius",
+    "count_correlation": 0.5783241071508294,
+    "min": 0.025093735888566445,
+    "max": 0.029693504187233943
+  }
+]
